@@ -54,7 +54,7 @@ namespace CardGames.GameLogic
 		/// </summary>
 		public void Shuffle()
 		{
-            //TODO: implement shuffle!
+            //Cycling through the deck selecting random cards
             for (int i = 0; i < 52; i++)
             {
                 if (_cards[i].FaceUp)
